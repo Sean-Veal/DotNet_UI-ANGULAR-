@@ -27,6 +27,7 @@ export class PhotoEditorComponent implements OnInit {
   }
 
   fileOverBase(e: any): void {
+    console.log(this.uploader);
     this.hasBaseDropZoneOver = e;
   }
 
